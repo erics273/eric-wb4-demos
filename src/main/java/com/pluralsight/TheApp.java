@@ -31,6 +31,25 @@ public class TheApp {
 
         System.out.println(thePerson.getAge());
 
+        //test our car
+        Car potatoCar = new Car("Subaru", "WRX");
+
+        //how fast is this car going
+        System.out.println("The cars speed is " + potatoCar.getSpeed() );
+
+        //change the speed of the car
+        potatoCar.accelerate(10);
+
+        //how fast is this car going
+        System.out.println("The cars speed is " + potatoCar.getSpeed() );
+
+        //change the cars speed
+        potatoCar.brake(20);
+
+        //how fast is this car going
+        System.out.println("The cars speed is " + potatoCar.getSpeed() );
+
+
     }
 
 }
